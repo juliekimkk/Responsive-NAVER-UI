@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#main {
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  /* font-size: 0; */
+}
+
+/*head*/
+#head {
+  height: 151px;
+  display: block;
+}
+.d_head {
+  display: flex;
+  height: 151px;
+}
+
+.link-launch {
+  font-size: 11px;
+  margin-left: 35px;
+  color: #888;
+  text-decoration: none;
+}
+
+.logo {
+  width: 180px;
+}
+.logo > a > img {
+  width: 180px;
+  height: 94px;
+  margin-left: -10px;
+}
+.search-box {
+  float: left;
+  width: 521px;
+}
+
+#daumSearch {
+  width: 519px;
+  height: 47px;
+  vertical-align: center;
+  border: 1px solid #0089ff;
+  margin-top: 40px;
+  font-size: 18px;
+}
+#daumSuggestWrap {
+  display: flex;
+  list-style: none;
+}
+#daumSuggestWrap > li {
+  font-size: 13px;
+  line-height: 1.5;
+  font-family: AppleSDGothicNeo-Regular, "Malgun Gothic", "맑은 고딕", dotum,
+    "돋움", sans-serif;
+  color: #222;
+  letter-spacing: -1px;
+  padding-top: 7px;
+  margin-right: 10px;
+}
+.head-bnr {
+  width: 379px;
+}
+.head-bnr > img {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.d_service {
+  border-bottom: 1px solid #888;
+  border-top: 1px solid #ececec;
+}
+.d_service > .d-service-inner {
+  display: flex;
+  max-width: 1080px;
+  height: 46px;
+  margin: 0 auto;
+}
+.d_service > .d-service-inner > .service {
+  display: flex;
+}
+.d_service > .d-service-inner > .service > .navbar-item {
+  width: 45px;
+  height: 25px;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  text-align: center;
+  list-style: none;
+}
+
+.d_service > .d-service-inner > .service > .navbar-item:nth-child(1) {
+  margin-left: 25px;
+}
+.d_service > .d-service-inner > .service > .navbar-item:nth-child(7) {
+  width: 70px;
+}
+.d_service > .d-service-inner > .service > .navbar-item:nth-child(9) {
+  width: 55px;
+}
+.d_service > .d-service-inner > .service > .navbar-item:nth-child(10) {
+  width: 55px;
+}
+.d_service > .d-service-inner > .service > .navbar-item:nth-child(13) {
+  width: 70px;
+}
+
+.d_service > .d-service-inner > .service > .navbar-item > a {
+  text-decoration: none;
+  color: black;
+}
+.d-service-inner > .today-base {
+  display: flex;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 25px;
+  margin-left: 100px;
+  width: 201.6px;
+  margin-top: 10px;
+}
+.d-service-inner > .today-base > div {
+  margin-left: 15px;
+}
+
+/*네번째 로그인창부분 세로*/
+#main-content {
+  background-color: darkgreen;
+  height: auto;
+  width: 655px;
+}
+
+#wing {
+  background-color: burlywood;
+  height: auto;
+  width: 300px;
+  display: block;
+}
+
+.adBrandingStation > img {
+  width: 300px;
+  height: 150px;
+}
