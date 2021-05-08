@@ -5,4 +5,4 @@
 코드의 가독성과 최적화를 우선시 하여 완벽하게 똑같은 UI로 만들기 위한 HTML, CSS 하드코딩 
 ```
 
-##### LINK TO : https://juliekimkk.github.io/naver-clone-coding/naver/naver.html
+##### LINK TO : https://juliekimkk.github.io/Responsive-NAVER-UI/naver/naver.html
